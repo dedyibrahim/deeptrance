@@ -18,6 +18,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <link rel="stylesheet" href="<?php echo base_url('assets/') ?>aos.css">
 <link href="<?php echo base_url('assets/') ?>style.css" rel="stylesheet">
 <script src="<?php echo base_url('assets/') ?>jquery.min.js"></script>
+<link href="<?php echo base_url('assets/') ?>swal/dist/sweetalert2.css" rel="stylesheet" type="text/css"/>
+<script src="<?php echo base_url('assets/') ?>swal/dist/sweetalert2.js" type="text/javascript"></script>
 <script  src="<?php echo base_url('assets/') ?>slick/slick.min.js"></script>
 <link rel="shortcut icon" href="" type="image/x-icon">
 <link rel="icon" href="" type="image/x-icon">
@@ -45,11 +47,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="col-lg-12">
 <ul class="list-inline text-lg-right text-center">
 <li class="list-inline-item">
-<a href="mailto:dianataekaputra@gmail.com">dianataekaputra@gmail.com</a>
+<a href="mailto:info@deeptranceinstitute.com">info@deeptranceinstitute.com</a>
 </li>
 <li class="list-inline-item">
-<a href="callto:1234565523">Call Us Now:
-<span class="ml-2"> 0812-86421943</span>
+<a href="callto:081292248877">Call Us Now:
+<span class="ml-2">0812 9224 8877</span>
 </a>
 </li>
 <li class="list-inline-item">
@@ -66,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="navigation">
 <div class="container">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-<a class="navbar-brand" href="http://demo.themefisher.com/themefisher/biztrox/index.html">
+    <a class="navbar-brand" href="<?php echo base_url() ?>">
 <img src="<?php echo base_url('assets/') ?>logo.png" alt="logo">
 </a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,7 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <li class="nav-item"><a class="nav-link" href="#artikel">Artikel</a></li>
 <li class="nav-item"><a class="nav-link" href="#ebook">Free E-Book</a></li>
 <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
-<li class="nav-item"><a class="nav-link btn btn-primary btn-sm" href="#">get a quote</a></li>
+<li class="nav-item"></li>
 
 </ul>
 </div>

@@ -19,6 +19,7 @@ public function proses_login(){
 $query = $this->M_login->proses_login($this->input->post('email'),$this->input->post('password'));
 
 $statis = $query->row_array();
+
 if($query->num_rows() >0){
     
 $data = array(
